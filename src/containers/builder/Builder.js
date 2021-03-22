@@ -1,8 +1,9 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-import Header from "../../components/Header/Header";
-
+import Header from "../../components/header/Header"
+import Typography from '@material-ui/core/Typography';
+import Table from '../../components/yardtable/YardTable'
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
@@ -26,6 +27,18 @@ const Builder = props =>{
                     <Grid item xs={12}>
                         <Header/>
                     </Grid>
+                <Grid container justify="flex-start" item xs={12} style={{paddingLeft:"8px"}}>
+                    <Grid item >
+                        <Typography variant="h6" component="h2">
+                            YARD LEVEL DEFINITION
+                        </Typography>
+                    </Grid>
+
+                </Grid>
+
+                <Grid item style={{padding:"10px"}}>
+                    <Table/>
+                </Grid>
 
             </Grid>
         </div>
