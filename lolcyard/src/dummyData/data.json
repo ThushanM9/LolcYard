@@ -1,0 +1,40 @@
+{
+    "yard": [
+        {
+            "levelCode": "EQUT",
+            "levelName": "Equity",
+            "description": "This is a 1st description",
+            "sequenc": 1,
+            "applicability": "Yes",
+            "branchLevel": "Equity1",
+            "status": "Active"
+        },
+        {
+            "levelCode": "EQUT",
+            "levelName": "Equity",
+            "description": "This is a 2 description",
+            "sequenc": 2,
+            "applicability": "Yes",
+            "branchLevel": "Equity2",
+            "status": "Active"
+        },
+        {
+            "levelCode": "EQUT",
+            "levelName": "Equity",
+            "description": "This is a 3 description",
+            "sequenc": 3,
+            "applicability": "No",
+            "branchLevel": "",
+            "status": "No"
+        },
+        {
+            "levelCode": "EQUT",
+            "levelName": "Equity",
+            "description": "This is a 4 description",
+            "sequenc": 4,
+            "applicability": "No",
+            "branchLevel": "",
+            "status": "Active"
+        }
+    ]
+}
